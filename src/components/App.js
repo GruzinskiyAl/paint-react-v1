@@ -40,7 +40,9 @@ class App extends Component {
           paintSettings = {this.state.paintSettings}
           setPaintSettings = {this.setPaintSettings}
         />
-        <PaintPanel />
+        <PaintPanel 
+          paintSettings = {this.state.paintSettings}
+        />
       </div>
     );
   }
